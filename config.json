@@ -1,0 +1,19 @@
+{
+    "params": {
+        "local_server": "True",
+        "local_uri": "mysql://root:@localhost/akblockchain",
+        "prod_uri": "mysql:// root:@localhost/akblockchain",
+        "fb_url": "https://facebook.com/100010032847077",
+        "tw_url": "https://twitter.com/SinghAakash777",
+        "gh_url": "https://github.com/Aakash231217",
+        "gmail-user": "rktaakash@gmail.com",
+        "gmail-password": "tgfnnojkfovgeicx",
+        "about_text": "Hi ! This our FinTech Dev. team feel free to contact any time ",
+        "blog_name": "FinanceSimplified",
+        "no_of_posts": 4,
+        "login_image": "bitcoin.jpg",
+        "admin_user": "Aakash",
+        "admin_password": "Aakash@28092002",
+        "upload_location": "static\\img"
+    }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>financebyak</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Ubuntu+Mono&display=swap" rel="stylesheet" />
+</head>
+
+<body class="text-center">
+    <section class="heading">
+        <h1 class="h2 mb-3 font-weight-normal">FinanceSimplified</h1>
+        <h3 class="h3 mb-3 font-weight-normal">The fastest growing FinanceTech</h3>
+    </section>
+    <form class="form-signin" action="{{url_for('chat')}}" method="POST">
+
+        <!-- <section class="heading">
+            <h1 class="h2 mb-3 font-weight-normal">AgriMeet</h1>
+            <h3 class="h3 mb-3 font-weight-normal">Farmers Ka Apna Network</h3>
+        </section> -->
+
+        <br /><br />
+        <input type="text" id="username" name="username" class="form-control" placeholder="Username" required autofocus /><br />
+        <input type="text" id="room" name="room" class="form-control" placeholder="Room" required /><br />
+        <button class="btn btn-lg btn-primary btn-block" value="submit">
+        Start Chat
+      </button>
+    </form>
+</body>
+
+</html>
